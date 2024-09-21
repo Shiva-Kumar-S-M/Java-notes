@@ -4,6 +4,7 @@ int a[][]=new int[5][5];
 int b[][]=new int[5][5];
 int c[][]=new int[5][5];
 int n;
+
 cmdTest(){
 }
 void matRead(int o)throws IOException {
@@ -55,8 +56,10 @@ System.out.println();
 }
 }
 public static void main(String args[]) throws IOException {
+    
 System.out.println("Order of the Matrix: "+args[0]);
 int order;
+
 cmdTest Mat= new cmdTest();
 order=Integer.parseInt(args[0]);
 Mat.matRead(order);
